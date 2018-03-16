@@ -183,8 +183,7 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
-Assets/scripts/Player_movement.cs
-Assets/scripts/PlayerMovement.cs
+Assets/scripts/Player/PlayerMovement.cs
 -r:D:\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll
 -r:D:\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll
 -r:D:\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll
