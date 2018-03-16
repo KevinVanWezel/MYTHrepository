@@ -13,21 +13,22 @@ public class PlayerMovement : MonoBehaviour
     private float _moveSpeed;
 
 
-    void Start()
+    private void Start()
     {
         _moveSpeed = _initialMoveSpeed;
     }
 
-    void Move(float x, float y)
+    private void Move(float x, float y)
     {
         _rb.velocity = new Vector2(x, y).normalized * _moveSpeed * Time.deltaTime;
     }
 
-    void Update()
+    private void Update()
     {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
         Move(x, y);
     }
+
 
 }
