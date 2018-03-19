@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private float _x;
+    private float _y;
+
     [SerializeField]
     private Rigidbody2D _rb;
 
@@ -25,10 +28,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
-        Move(x, y);
+        _x = Input.GetAxisRaw("Horizontal");
+        _y = Input.GetAxisRaw("Vertical");
+             
+        Move(_x, _y);
+      
     }
-
-
 }
