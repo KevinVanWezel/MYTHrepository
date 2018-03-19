@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 46153530}
   - component: {fileID: 46153533}
   - component: {fileID: 46153532}
+  - component: {fileID: 46153534}
   m_Layer: 0
   m_Name: boulder
   m_TagString: Untagged
@@ -233,6 +234,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0059481}
   m_EdgeRadius: 0
+--- !u!114 &46153534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 46153529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62760a2f5fb8f1444873c0f2b8575761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &494809778
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +272,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 494809778}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb8b748d17607e14b8ddc8272cfaaac9, type: 3}
   m_Name: 
@@ -398,7 +410,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 494809778}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c811714691e24e4c9ac856bbb4aba5b, type: 3}
   m_Name: 
