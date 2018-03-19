@@ -2,21 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dirt_block : MonoBehaviour {
+public class dirt_block : MonoBehaviour
+{
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         GameObject[] pickups = GameObject.FindGameObjectsWithTag("dirt_block");
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-    private void OnTriggerEnter2D(Collider2D other)
+	//looks if the player and the dirt block collide and than destroys the dirt block
+    private void OnTriggerEnter2D(Collider2D Other)
     {
-        print("test");
-        if (other.tag == "Player")
+
+        if (Other.tag == "Player")
         {
 
             Destroy(gameObject);
