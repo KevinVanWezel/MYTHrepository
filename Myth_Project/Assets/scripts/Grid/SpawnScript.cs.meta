@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 73e09d5827c2c8640949476bfe0a226d
+timeCreated: 1522012489
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _playerPrefab: {fileID: 1221668616575794, guid: 6f9a2317ce6edfa438436b2963cfa5c9,
+      type: 2}
+  - _wallPrefab: {fileID: 1046813521972656, guid: 228cae727dfb1ef41847c1ba292b9f10,
+      type: 2}
+  - _boulderPrefab: {fileID: 1828264134350748, guid: 6779d5044d7e7854f9dc577101d4856e,
+      type: 2}
+  - _dirtPrefab: {fileID: 1473238900611712, guid: 585ea0ed069791f4eb9fb463bcc0808e,
+      type: 2}
+  - _finishPrefab: {fileID: 1042897495353524, guid: 404535c6a4713484ca23e9f0ba82693f,
+      type: 2}
+  - _gemPrefab: {fileID: 1747635911305346, guid: 78491836eb9225a499a0bf59717b3fdc,
+      type: 2}
+  - _wormPrefab: {fileID: 1345960516910444, guid: d4fda4838557b584f866795a6b41bd01,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
