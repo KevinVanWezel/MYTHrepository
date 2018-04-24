@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Materials/Stone.unity
+  isLoaded: 1
+  isActive: 1
