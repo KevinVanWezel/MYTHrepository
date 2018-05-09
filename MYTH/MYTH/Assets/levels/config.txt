@@ -1,0 +1,10 @@
+//don't edit this file.
+//this file is used when building the level
+wall = W
+start = S
+boulder = B
+empty = E
+dirt = D
+finish = F
+//G = gem
+worm = *
