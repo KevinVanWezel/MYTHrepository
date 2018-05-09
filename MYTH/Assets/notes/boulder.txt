@@ -1,0 +1,24 @@
+boulder
+{
+	if(under == null)
+	{
+		move(down);
+	}
+	else if(under == boulder || under == gem)
+	{
+		if(left == null && under-left == null)
+		{
+			move(left);
+			move(down);
+		}
+		else if(right == null && under-right == null)
+		{
+			move(right);
+			move(down);
+		}
+	}
+	if(player == under && moving)
+	{
+		print("gameOver()");
+	}
+}
