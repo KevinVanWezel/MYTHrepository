@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 71ad3652cc6cc264ca80c46294a37acb
+timeCreated: 1524561490
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dragging Canoe
+  fontNames:
+  - Dragging Canoe
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
