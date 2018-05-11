@@ -29,8 +29,8 @@ public class PlayerInput : MonoBehaviour {
         {
             
             _playerMove.LeftRight("left");
-            _Move.Animate(true);
-            _Move.Look(false);
+
+
            
         }
 
@@ -41,16 +41,9 @@ public class PlayerInput : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.D))
         {
             _playerMove.LeftRight("right");
-            _Move.Animate(true);
-            _Move.Look(true);
+           
+            
         }
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-           _Move.Animate(false);
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            _Move.Animate(false);
-        }
+   
     }
 }

@@ -19,7 +19,7 @@ public class AnimatePlayer : MonoBehaviour
         playerDirector.GetComponent<PlayerInput>();
         _Anim = GetComponent<Animator>();
     }
-    public void Look(bool right)
+    private void Look(bool right)
     {
 
         if (right == true)
@@ -48,10 +48,10 @@ public class AnimatePlayer : MonoBehaviour
       
     }
      
-    public void Animate(bool walking)
+     private void Animate(bool Walking)
     {
         
-        if(walking == true)
+        if(Walking == true)
         {
             _Anim.SetTrigger("RightWalking");
         }
@@ -64,17 +64,27 @@ public class AnimatePlayer : MonoBehaviour
     {
         
         if (Input.GetKeyDown(KeyCode.A))
-        {          
-           // Look(false);
+        {
+            Animate(true); 
+            Look(false);
           
           
         }
 
         if (Input.GetKeyDown(KeyCode.D))
-        {            
-         //   Look(true);
+        {
+            Animate(true);
+            Look(true);
           
             
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            Animate(false);
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            Animate(false);
         }
 
     }
